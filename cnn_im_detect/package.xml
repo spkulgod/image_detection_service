@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cnn_im_detect</name>
+  <version>0.0.1</version>
+  <description>Package containing subscribing to an image, and determining the vegetable using tensor flow CNN</description>
+  <maintainer email="sutej.kulgod@nymble.org">Sutej Kulgod</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>libopencv-dev</exec_depend>
+  <exec_depend>vision_opencv</exec_depend>
+  <exec_depend>tensorflow</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>libopencv-dev</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>ament_pep8</test_depend>
+  <test_depend>ament_pyflakes</test_depend>
+  <test_depend>rclpy</test_depend>
+  <test_depend>std_msgs</test_depend>
+  <test_depend>numpy</test_depend>
+  <test_depend>vision_opencv</test_depend>
+  <test_depend>tensorflow</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
